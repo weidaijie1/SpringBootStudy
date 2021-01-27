@@ -1,0 +1,20 @@
+server:
+  port: 8087
+spring:
+  datasource:
+    primary:
+      url: jdbc:mysql://123.57.87.54:3306/ssm?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: bms
+      password: bms@2018
+      driver-class-name: com.mysql.jdbc.Driver
+    secondary:
+      url: jdbc:mysql://123.57.87.54:3306/ssm2?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      username: bms
+      password: bms@2018
+      driver-class-name: com.mysql.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+    hibernate:
+      ddl-auto: validate
+    database: mysql
+    show-sql: true

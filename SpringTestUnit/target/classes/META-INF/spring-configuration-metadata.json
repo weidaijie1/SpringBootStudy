@@ -1,0 +1,48 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.itheima.pojo.Person",
+      "name": "person",
+      "type": "com.itheima.pojo.Person"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.itheima.pojo.Person",
+      "name": "person.address",
+      "type": "com.itheima.pojo.Address"
+    },
+    {
+      "sourceType": "com.itheima.pojo.Person",
+      "defaultValue": 0,
+      "name": "person.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.itheima.pojo.Person",
+      "name": "person.birthday",
+      "type": "java.util.Date"
+    },
+    {
+      "sourceType": "com.itheima.pojo.Person",
+      "name": "person.list",
+      "type": "java.util.List<java.lang.String>"
+    },
+    {
+      "sourceType": "com.itheima.pojo.Person",
+      "name": "person.manager",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.itheima.pojo.Person",
+      "name": "person.map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>"
+    },
+    {
+      "sourceType": "com.itheima.pojo.Person",
+      "name": "person.name",
+      "type": "java.lang.String"
+    }
+  ]
+}

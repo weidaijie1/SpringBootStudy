@@ -48,20 +48,16 @@ public class JPAPrimaryConfig {
         return entityManagerFactoryPrimary(builder).getObject().createEntityManager();
     }
 
-
-
     @Primary
     @Bean(name = "entityManagerFactoryPrimary")    //primary实体工厂
     public LocalContainerEntityManagerFactoryBean entityManagerFactoryPrimary (EntityManagerFactoryBuilder builder) {
-
         Map<String,Object> properties =
                 hibernateProperties.determineHibernateProperties(
                         jpaProperties.getProperties(),
                         new HibernateSettings());
-
         return builder.dataSource(primaryDataSource())
                 .properties(properties)
-                .packages("com.dj.dao.testssm")     //换成你自己的实体类所在位置
+                .packages("com.dj.model.modelssm")     //换成你自己的实体类所在位置
                 .persistenceUnit("primaryPersistenceUnit")
                 .build();
     }

@@ -59,7 +59,7 @@ public class JPASecondaryConfig {
         return builder
                 .dataSource(secondaryDataSource())
                 .properties(properties)
-                .packages("com.dj.dao.testssm2") //换成你自己的实体类所在位置
+                .packages("com.dj.model.modelssm2") //换成你自己的实体类所在位置
                 .persistenceUnit("secondaryPersistenceUnit")
                 .build();
     }

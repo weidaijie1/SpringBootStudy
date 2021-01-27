@@ -13,6 +13,12 @@
       "sourceMethod": "secondaryDataSource()"
     }
   ],
-  "properties": [],
+  "properties": [
+    {
+      "name": "spring.datasource.primary.url",
+      "type": "java.lang.String",
+      "description": "Description for spring.datasource.primary.url."
+    }
+  ],
   "hints": []
 }

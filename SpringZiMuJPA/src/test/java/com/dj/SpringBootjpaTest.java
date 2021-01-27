@@ -29,18 +29,18 @@ public class SpringBootjpaTest {
                 .content("spring boot 从青铜到王者")
                 .createTime(new Date())
                 //.reader(readers)
-                .title("t1").build();
+                .title("t133333").build();
 
-//        User user = User.builder()
-//                .user_name("zimug")
-//                .address("ok")
-//                .brithday(new Date())
-//                .sex("南")
-//                .build();
+        User user = User.builder()
+                .user_name("zimug")
+                .address("ok")
+                .birthday(new Date())
+                .sex("南")
+                .build();
 
         //先构造一个Article对象article，这个操作针对testdb
         articleRepository.save(article);
         //在构造一个Message对象message，这个操作针对testdb2
-//        userRepository.save(user);
+        userRepository.save(user);
     }
 }

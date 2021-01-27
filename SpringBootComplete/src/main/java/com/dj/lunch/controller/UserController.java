@@ -29,9 +29,6 @@ public class UserController {
         List<User> u =   userService.findall();
         return u;
     }
-
-
-
     @RequestMapping(method = RequestMethod.POST,value = "/insert")
     public void insert(@RequestBody User user){
 

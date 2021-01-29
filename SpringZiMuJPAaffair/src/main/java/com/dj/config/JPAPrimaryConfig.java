@@ -3,6 +3,7 @@ package com.dj.config;
 import com.atomikos.jdbc.AtomikosDataSourceBean;
 import com.mysql.cj.jdbc.MysqlXADataSource;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -19,7 +20,7 @@ import java.util.HashMap;
 
 @Configuration
 @DependsOn("transactionManager")
-@EnableJpaRepositories(basePackages = "com.dj.model.modelssm",  //注意这里
+@EnableJpaRepositories(basePackages = "com.dj.dao.testssm",  //注意这里
         entityManagerFactoryRef = "primaryEntityManager",
         transactionManagerRef = "transactionManager")
 public class JPAPrimaryConfig {

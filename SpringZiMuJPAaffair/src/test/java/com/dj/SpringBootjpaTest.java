@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 
@@ -22,17 +23,18 @@ public class SpringBootjpaTest {
     private UserRepository userRepository;
 
     @Test
+    @Transactional
     public void jpaTest(){
         Article article = Article.builder()
                 .id(25)
-                .author("zimug6666")
+                .author("0zimug6666321")
                 .content("spring boot 从青铜到王者")
                 .createTime(new Date())
                 //.reader(readers)
                 .title("t133333").build();
 
         User user = User.builder()
-                .user_name("zimug")
+                .user_name("056zimug321")
                 .address("ok")
                 .birthday(new Date())
                 .sex("南")
@@ -42,5 +44,7 @@ public class SpringBootjpaTest {
         articleRepository.save(article);
         //在构造一个Message对象message，这个操作针对testdb2
         userRepository.save(user);
+        int a = 2/0;
+
     }
 }

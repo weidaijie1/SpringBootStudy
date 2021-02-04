@@ -20,7 +20,7 @@ import java.util.HashMap;
 
 @Configuration
 @DependsOn("transactionManager")
-@EnableJpaRepositories(basePackages = "com.dj.dao.testssm",  //注意这里
+@EnableJpaRepositories(basePackages = "com.dj.dao.testssm",  //注意这里  放的是持久层@Repository
         entityManagerFactoryRef = "primaryEntityManager",
         transactionManagerRef = "transactionManager")
 public class JPAPrimaryConfig {

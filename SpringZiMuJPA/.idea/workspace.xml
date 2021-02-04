@@ -4,24 +4,8 @@
     <list default="true" id="b6efd3b6-add8-4ed5-8fe4-4e75c46b39b8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../SpringBootComplete/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootComplete/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBootJpaTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootJpaTest/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootjsbcMybitas/src/main/java/com/dj/lunch/dao/TtUserDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootjsbcMybitas/src/main/java/com/dj/lunch/model/TtUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootjsbcMybitas/src/main/java/com/dj/lunch/model/TtUserExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootjsbcMybitas/src/main/java/com/dj/lunch/service/TtUserDaoService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootjsbcMybitas/src/main/java/com/dj/lunch/service/TtUserResService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringBootjsbcMybitas/src/main/resources/generator/TtUserDao.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringZiMuJPAaffair/src/main/java/com/dj/config/JPAPrimaryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringZiMuJPAaffair/src/main/java/com/dj/config/JPAPrimaryConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringZiMuJPAaffair/src/main/java/com/dj/config/JPASecondaryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringZiMuJPAaffair/src/main/java/com/dj/config/JPASecondaryConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringZiMuJPAaffair/src/main/java/com/dj/controller/springboottest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringZiMuJPAaffair/src/main/java/com/dj/controller/springboottest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringZiMuJPAaffair/src/test/java/com/dj/SpringBootjpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringZiMuJPAaffair/src/test/java/com/dj/SpringBootjpaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringZiMuJPAaffair/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringZiMuJPAaffair/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringZiMuJPAaffair/target/classes/com/dj/config/JPAAtomikosTransactionConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringZiMuJPAaffair/target/classes/com/dj/config/JPAAtomikosTransactionConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringZiMuJPAaffair/target/classes/com/dj/config/JPAPrimaryConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringZiMuJPAaffair/target/classes/com/dj/config/JPAPrimaryConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringZiMuJPAaffair/target/classes/com/dj/config/JPASecondaryConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringZiMuJPAaffair/target/classes/com/dj/config/JPASecondaryConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringZiMuJPAaffair/target/classes/com/dj/controller/springboottest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringZiMuJPAaffair/target/classes/com/dj/controller/springboottest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringZiMuJPAaffair/target/test-classes/com/dj/SpringBootjpaTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringZiMuJPAaffair/target/test-classes/com/dj/SpringBootjpaTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SpringZiMuJPAaffair/tmlog1.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,6 +150,7 @@
       <workItem from="1611748082856" duration="1332000" />
       <workItem from="1611749471461" duration="3456000" />
       <workItem from="1611814398565" duration="634000" />
+      <workItem from="1612140453370" duration="601000" />
     </task>
     <servers />
   </component>

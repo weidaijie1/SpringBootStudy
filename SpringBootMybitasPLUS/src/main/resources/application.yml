@@ -1,0 +1,19 @@
+server:
+  port: 8084
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://123.57.87.54:3306/ssm2?useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: bms
+    password: bms@2018
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp
+## 配置日志
+#logging:
+#  level:
+#    root: warn
+#    com.dj.lunch.mapper: trace
+#
+#debug: true

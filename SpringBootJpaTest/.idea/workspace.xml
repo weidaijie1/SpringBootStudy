@@ -4,6 +4,9 @@
     <list default="true" id="7e1b52ba-7062-439a-9fc9-763d4f681e28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../SpringBootComplete/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootComplete/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootThymeleafTest/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootThymeleafTest/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootThymeleafTest/src/main/java/com/dj/launch/controller/SpringTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootThymeleafTest/src/main/java/com/dj/launch/controller/SpringTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootThymeleafTest/src/main/resources/templates/thymeleaftemp.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootThymeleafTest/src/main/resources/templates/thymeleaftemp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,5 +1,6 @@
 package com.dj.lunch.service;
 
+import com.dj.lunch.AjaxResponse;
 import com.dj.lunch.mapper.UserMapper;
 import com.dj.lunch.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,8 +13,8 @@ import java.util.List;
 public class UserServiceImp implements   UserService {
     @Resource
     private UserMapper userMapper;
-    public User getonebyid(int id){
-        return userMapper.selectById(id);
+    public AjaxResponse getonebyid(int id){
+        return AjaxResponse.success(userMapper.selectById(id));
     }
     public  int inset_user(User user){
         return userMapper.insert(user);

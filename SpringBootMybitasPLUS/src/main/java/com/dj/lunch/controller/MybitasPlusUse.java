@@ -1,5 +1,6 @@
 package com.dj.lunch.controller;
 
+import com.dj.lunch.AjaxResponse;
 import com.dj.lunch.mapper.UserMapper;
 import com.dj.lunch.model.User;
 
@@ -22,8 +23,9 @@ public class MybitasPlusUse {
     private UserService userService;
     @RequestMapping(method = RequestMethod.GET,value = "getone/{id}")
     @ResponseBody
-    public User getUserByID(@PathVariable("id")int id){
-       return  userService.getonebyid(id);
+    public AjaxResponse getUserByID(@PathVariable("id")int id){
+        
+       return  AjaxResponse.success(userService.getonebyid(id));
     }
 
     @RequestMapping("/test")

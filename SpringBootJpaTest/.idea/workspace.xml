@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e1b52ba-7062-439a-9fc9-763d4f681e28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SpringBootEmailSend/SpringBootEmailSend.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SpringBootComplete/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootComplete/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -150,7 +149,7 @@
       <workItem from="1612881527660" duration="608000" />
       <workItem from="1612952951740" duration="605000" />
       <workItem from="1613701104759" duration="1850000" />
-      <workItem from="1613784347502" duration="1698000" />
+      <workItem from="1613784347502" duration="1986000" />
     </task>
     <servers />
   </component>

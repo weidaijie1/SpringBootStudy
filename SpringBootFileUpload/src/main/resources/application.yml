@@ -1,0 +1,27 @@
+server:
+  port: 8089
+
+web:
+  upload-path: D:/data/
+
+spring:
+  # MinIo文件服务器
+  minio:
+    endpoint: http://123.57.87.54:9000
+    accessKey: zimug
+    secretKey: zimug-boot-launch
+  thymeleaf:
+    #模板的模式，支持 HTML, XML TEXT JAVASCRIPT
+    mode: HTML5
+    #编码 可不用配置
+    encoding: UTF-8
+    #内容类别,可不用配置
+    #开发配置为false,避免修改模板还要重启服务器
+    cache: false
+    #配置模板路径，默认是templates，可以不用配置
+    prefix: classpath:/templates/
+  mvc:
+    view:
+      suffix: .html
+    static-path-pattern: /**
+
